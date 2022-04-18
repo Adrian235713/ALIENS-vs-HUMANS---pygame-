@@ -147,7 +147,7 @@ def main():
 
 
 
-        print(alien_bullets,human_bullets)
+        print(clock,alien_bullets,human_bullets)
  
         keys_pres = pygame.key.get_pressed()
         human_movment(keys_pres, human)

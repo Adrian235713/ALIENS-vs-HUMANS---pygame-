@@ -114,7 +114,7 @@ def main():
     while run:
         clock.tick(FPS)
         for event in pygame.event.get():
- 
+
             if event.type == pygame.QUIT:
                 run = False
                 pygame.quit() 
@@ -133,6 +133,8 @@ def main():
     
             if event.type == HUMAN_HIT:
                 human_h -= 1
+
+            print(event)
         
         winner = ""
         if alien_h <= 0:

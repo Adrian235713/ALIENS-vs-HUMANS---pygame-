@@ -21,8 +21,9 @@ FPS = 120
 MOVEMENT = 5
 BULLET_MOVEMENT = 9
 pygame.display.set_caption("ALIENS vs HUMANS !!!")
+
 # -----------------------------------------------------------------
-WIDTH_SHIP, HEIGH_SHIP = 60, 50
+WIDTH_SHIP, HEIGH_SHIP = 80, 70
 ALIEN_SHIP_IMG = pygame.image.load(os.path.join('Assets','alien_ship.png'))
 ALIEN_SHIP = pygame.transform.rotate(
     pygame.transform.scale(ALIEN_SHIP_IMG, (WIDTH_SHIP,HEIGH_SHIP)) , 270)

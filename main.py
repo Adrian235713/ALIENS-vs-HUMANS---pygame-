@@ -129,10 +129,10 @@ def main():
                     human_bullets.append(bullet)
 
             if event.type == ALIEN_HIT:
-                alien_h -= 1
+                human_h -= 1
     
             if event.type == HUMAN_HIT:
-                human_h -= 1
+                alien_h -= 1
 
             print(event)
         
